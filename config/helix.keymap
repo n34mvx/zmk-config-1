@@ -41,11 +41,11 @@ As such, those are in use within the default layer at this time.*/
               };
               lower_layer {
                      bindings = <
-       &trans    &trans   &trans &trans   &trans   &trans                             &trans    &trans    &trans    &trans   &trans   &trans
-       &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                          &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR &trans
-       &trans    &trans   &trans &trans   &trans   &trans                             &trans    &kp UNDER &kp PLUS  &kp LBRC &kp RBRC &kp PIPE
-       &trans    &trans   &trans &trans   &trans   &trans    &kp LPAR        &kp RPAR &trans    &trans    &trans    &kp HOME &kp END  &trans
-       &none     &none    &none  &none    &none    &non      &none           &trans   &trans    &trans    &trans    &trans   &trans   &trans
+       &kp F1     &kp F2      &kp F3      &kp F4      &kp F5      &kp F6                         &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
+       &trans     &kp EXCL    &kp DLLR    &kp LPAR    &kp RPAR    &kp COLON                      &kp SLSH    &kp LBRC    &kp RBRC    &kp BSLH    &kp ASTRK   &trans
+       &trans     &kp MINUS   &kp EQUAL   &kp LBRC    &kp RBRC    &kp QMARK                      &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &kp PIPE    &kp DQT
+       &trans     &kp UNDER   &kp AT      &kp HASH    &kp AMPS    &kp PLUS     &none    &trans   &kp CARET   &kp PERCENT &kp LT      &kp GT      &kp SLSH    &trans
+       &trans     &trans      &trans      &trans      &trans      &trans      &trans    &trans   &trans      &trans      &trans      &trans      &trans      &trans
                      >;
               };
               raise_layer {

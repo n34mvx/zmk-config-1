@@ -48,7 +48,7 @@ As such, those are in use within the default layer at this time.*/
                      bindings = <
        &kp F1    &kp F2     &kp F3     &kp F4           &kp F5              &kp F6               &kp F7    &kp F8      &kp F9    &kp F10   &kp F11    &kp F12
        &trans    &kp EXCL   &kp DLLR   &kp LPAR         &kp RPAR            &kp COLON            &kp SLASH &kp LBRC    &kp RBRC  &kp BSLH  &kp ASTRK  &none
-       &trans    &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET &kp RIGHT_BRACKET   &kp QMARK            &kp LEFT  &kp DOWN    &kp UP    &kp RIGHT &kp PIPE   &kp DQT
+       &trans    &kp MINUS  &mt LALT EQUAL &mt LGUI  LEFT_BRACKET &mt LSHFT RIGHT_BRACKET   &kp QMARK            &kp LEFT  &kp DOWN    &kp UP    &kp RIGHT &kp PIPE   &kp DQT
        &trans    &kp UNDER  &kp AT     &kp HASH         &kp AMPS  &kp PLUS  &trans      &trans   &kp CARET &kp PERCENT &kp LT    &kp GT    &kp SLASH  &trans
        &trans    &trans     &trans     &trans           &trans    &trans    &trans      &trans   &trans    &trans      &trans    &trans    &trans     &trans
                      >;

@@ -25,8 +25,9 @@ As such, those are in use within the default layer at this time.*/
            mt: mod_tap {
                compatible = "zmk,behavior-hold-tap";
                #binding-cells = <2>;
-               flavor = "hold-preferred";
+               flavor = "balanced";
                tapping-term-ms = <200>;
+               require-prior-idle-ms = <75>;
                bindings = <&kp>, <&kp>;
                display-name = "Mod-Tap";
            };

@@ -22,13 +22,14 @@ As such, those are in use within the default layer at this time.*/
 
 / {
        behaviors {
-               compatible = "zmk,behaviors";
-
-               &mt {
-                   tapping-term-ms = <200>;
-                   quick-tap-ms = <80>;
-                   flavor = "tap-preferred";
-               };
+           mt: mod_tap {
+               compatible = "zmk,behavior-hold-tap";
+               #binding-cells = <2>;
+               flavor = "hold-preferred";
+               tapping-term-ms = <200>;
+               bindings = <&kp>, <&kp>;
+               display-name = "Mod-Tap";
+           };
        };
        keymap {
               compatible = "zmk,keymap";

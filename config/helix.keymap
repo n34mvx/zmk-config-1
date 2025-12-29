@@ -30,10 +30,7 @@ As such, those are in use within the default layer at this time.*/
                      flavor = "tap-preferred";
                      permissive-hold;
                      #binding-cells = <2>;  // optional, inherited from YAML
-                     bindings = <&kp LALT &kp S>,
-                                <&kp LGUI &kp D>,
-                                <&kp LSHFT &kp F>,
-                                <&kp LCTRL &kp H>;
+                     bindings = <>;
               };
        };
        keymap {

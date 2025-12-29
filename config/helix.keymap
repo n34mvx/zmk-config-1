@@ -25,13 +25,15 @@ As such, those are in use within the default layer at this time.*/
               compatible = "zmk,behaviors";
               hm: home_row_mods {
                      compatible = "zmk,behavior-hold-tap";
-                     label = "HM";
-                     #binding-cells = <0>;
                      tapping-term-ms = <200>;
                      quick-tap-ms = <80>;
                      flavor = "tap-preferred";
                      permissive-hold;
-                     bindings = <&kp>, <&kp>;
+                     #binding-cells = <2>;  // optional, inherited from YAML
+                     bindings = <&kp LALT &kp S>,
+                                <&kp LGUI &kp D>,
+                                <&kp LSHFT &kp F>,
+                                <&kp LCTRL &kp H>;
               };
        };
        keymap {

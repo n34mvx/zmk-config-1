@@ -22,6 +22,7 @@ As such, those are in use within the default layer at this time.*/
 
 / {
        behaviors {
+              compatible = "zmk,behaviors";
               hm: home_row_mods {
                      compatible = "zmk,behavior-mod-tap";
                      label = "HM";

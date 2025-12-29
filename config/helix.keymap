@@ -31,10 +31,11 @@ As such, those are in use within the default layer at this time.*/
                      quick-tap-ms = <80>;
                      flavor = "tap-preferred";
                      permissive-hold;
+                     bindings = <&kp &kp>;
               };
        };
        keymap {
-              compatible = "zmk,behavior-hold-tap";
+              compatible = "zmk,keymap";
 
               default_layer {
                      bindings = <
